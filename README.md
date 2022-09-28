@@ -10,8 +10,6 @@ classes, each with a list of assignments.
 
 In this exercise, you'll practice working with data laid out in a 2D array.
 
-## Instructions
-
 Write a function `row_sum` that calculates the sum of each row in a 2D array. It
 should accept a single argument, a list of lists of numbers. It should return a
 list of numbers, representing the sum of each row.
