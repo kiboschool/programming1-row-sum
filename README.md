@@ -10,6 +10,8 @@ classes, each with a list of assignments.
 
 In this exercise, you'll practice working with data laid out in a 2D array.
 
+## Your Task
+
 Write a function `row_sum` that calculates the sum of each row in a 2D array. It
 should accept a single argument, a list of lists of numbers. It should return a
 list of numbers, representing the sum of each row.
@@ -31,4 +33,20 @@ row_sum([
 ## Testing
 
 Try running the code by hand on some sample inputs to check for yourself that it 
-works. Then, run the automated tests to confirm that your solution is correct.
+works.
+
+Open up a python terminal, then run `from main import *` to load your code.
+Then, you can run the example above to check that it has the same result as
+expected.
+
+Then, run the automated tests to confirm that your solution is correct.
+
+## Bonus: `sum` function and list comprehensions
+
+As usual, there are multiple ways to solve the same problem. Try rewriting your
+solution using:
+
+* the built-in `sum` function
+* Python's [list comprehensions](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions)
+
+Remember to run the tests again to check your new solution.
